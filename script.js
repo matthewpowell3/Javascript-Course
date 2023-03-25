@@ -38,4 +38,4 @@ const name = 'Matthew';
 const age = ' 14';
 
 // Old
-console.log('My name is ' + name + ' and i am age ' + age);
+console.log('My name is ' + name + ' and i am age' + age);
