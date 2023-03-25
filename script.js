@@ -97,4 +97,15 @@ fruits[3] = 'Mango';
 // Best way
 fruits.push('PineApple');
 
+// Add to the begining
+fruits.unshift('Grapes');
+
+// remove last item form array
+
+fruits.pop();
+
+// check if something is in the array
+
+console.log(Array.isArray('hat'));
+
 console.log(fruits[1]);
