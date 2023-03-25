@@ -88,3 +88,7 @@ console.log(array);
 const fruits = ['Apple', 'Bananna', 'Coconut'];
 
 console.log(fruits);
+
+// The array starts counting form zero so thats why bananna is consoled
+
+console.log(fruits[1]);
