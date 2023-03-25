@@ -239,9 +239,20 @@ while (i <= 10) {
 
 // Conditional
 
-const i = 5;
-const y = 11;
+// const i = 5;
+// const y = 11;
 
-if (i > y || y > 10) {
-  console.log('x is more than 5 or y is more than 10');
-}
+// OR
+// if (i > y || y > 10) {
+//   console.log('x is more than 5 or y is more than 10');
+// }
+
+// AND
+
+// if (i > y && y > 10) {
+//   console.log('x is more than 5 or y is more than 10');
+// }
+
+// Short Hand If Statement
+
+// used to assign a variable based on a condition
