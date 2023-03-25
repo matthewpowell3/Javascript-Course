@@ -156,21 +156,43 @@ person.address.email = 'nowgeforce@gmail.com';
 
 console.log(person);
 
-
-const todos [
+const todos = [
   {
     id: 1,
-    text: "Wash clothes",
-    isComplete: true
+    text: 'Wash clothes',
+    isComplete: true,
   },
   {
     id: 2,
-    text: "Take out trash",
-    isComplete: true
+    text: 'Take out trash',
+    isComplete: true,
   },
   {
     id: 3,
-    text: "Cook",
-    isComplete: true
-  }
-]
+    text: 'Cook',
+    isComplete: false,
+  },
+];
+
+// Excerise console llog text
+
+console.log(todos);
+
+console.log(todos[0].text);
+
+console.log(todos[1].text);
+
+console.log(todos[2].text);
+
+// send data to a sever
+
+const todoJSON = JSON.stringify(todos);
+
+console.log(todoJSON);
+
+// For
+// variable, condition to be met, increment or decrement
+
+for (let x = 0; x < 10; x++) {
+  // anything in here is going to run until x is greater than or equal to ten
+}
