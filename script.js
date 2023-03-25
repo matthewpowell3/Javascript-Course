@@ -33,7 +33,7 @@ console.log(typeof name);
 */
 
 // Concatenation
-
+/*
 const name = 'Matthew';
 const age = ' 14';
 
@@ -59,9 +59,11 @@ console.log(sentence.length);
 console.log(sentence.toUpperCase());
 
 console.log(sentence.toLowerCase());
+*/
 
 // Start and End
 
+/*
 console.log(sentence.substring(0, 8));
 
 console.log(sentence.substring(0, 8).toUpperCase());
@@ -71,5 +73,6 @@ console.log(sentence.split(''));
 const list = 'car, house, bar, gun, money';
 
 console.log(list.split(','));
+*/
 
 // Array
