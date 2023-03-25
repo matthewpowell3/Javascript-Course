@@ -54,4 +54,6 @@ console.log(sentence);
 
 console.log(sentence.length);
 
+// A method is a object assgin to a object
+
 console.log(sentence.toUpperCase());
