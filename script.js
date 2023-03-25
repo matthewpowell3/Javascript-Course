@@ -127,4 +127,8 @@ const person = {
   },
 };
 
-console.log(person);
+console.log(person.firstName);
+
+// You can multi log in the conssole with a comma
+
+console.log(person.firstName, person.lastName, person.age);
