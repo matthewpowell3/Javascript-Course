@@ -201,4 +201,5 @@ for (let x = 0; x <= 10; x++) {
 let i = 0;
 while (i <= 10) {
   console.log(`This is a While Loop: ${i}`);
+  i++;
 }
