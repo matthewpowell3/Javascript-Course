@@ -91,4 +91,8 @@ console.log(fruits);
 
 // The array starts counting form zero so thats why bananna is consoled
 
+// you can push unto the array but not redefined it
+
+fruits[3] = 'Mango';
+
 console.log(fruits[1]);
