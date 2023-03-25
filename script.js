@@ -151,7 +151,7 @@ console.log(firstName, lastName, street, parish);
 // Add things
 person.emotion = 'happy';
 person.hobbies.push('games');
-person.hobbies.unshift.push('playing outside');
+person.hobbies.unshift('playing outside');
 person.address.email = 'nowgeforce@gmail.com';
 
 console.log(person);
