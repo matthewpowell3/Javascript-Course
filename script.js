@@ -75,4 +75,6 @@ const list = 'car, house, bar, gun, money';
 console.log(list.split(','));
 */
 
-// Array
+// Array - array are essentially varaibles that can hold multiple variables
+
+
