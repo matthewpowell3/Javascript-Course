@@ -65,3 +65,5 @@ console.log(sentence.toLowerCase());
 console.log(sentence.substring(0, 8));
 
 console.log(sentence.substring(0, 8).toUpperCase());
+
+console.log(sentence.split(''));
