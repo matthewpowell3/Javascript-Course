@@ -277,3 +277,12 @@ switch (color) {
   default:
     console.log('The color is not red or blue');
 }
+
+// function
+
+function addNums(num1 = 8, num2 = 9) {
+  console.log(num1 + num2);
+}
+
+// nan not a number
+addNums();
