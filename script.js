@@ -120,7 +120,7 @@ const person = {
   firstName: 'Matthew',
   lastName: 'Powell',
   age: 14,
-  hobbies: ['music', 'coding', 'gaming'],
+  hobbies: ['music', 'coding', 'movies'],
   address: {
     street: 'Red Bank',
     parish: 'Saint Elizabeth',
@@ -132,3 +132,12 @@ console.log(person.firstName);
 // You can multi log in the conssole with a comma
 
 console.log(person.firstName, person.lastName, person.age);
+
+// get movies and street
+console.log(person.hobbies[2], person.address.street);
+
+// put these out to make them variables
+
+const { firstName, lastName } = person;
+
+console.log(firstName, lastName);
