@@ -240,11 +240,8 @@ while (i <= 10) {
 // Conditional
 
 const i = 5;
+const y = 11;
 
-if (i === 10) {
-  console.log('i is equal to 10');
-} else if (i === 5) {
-  console.log('i is equal to 5');
-} else {
-  console.log(`i is equal to ${i}`);
+if (i > y || y > 10) {
+  console.log('x is more than 5 or y is more than 10');
 }
