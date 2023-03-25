@@ -239,7 +239,7 @@ while (i <= 10) {
 
 // Conditional
 
-// const i = 5;
+const i = 5;
 // const y = 11;
 
 // OR
@@ -256,3 +256,24 @@ while (i <= 10) {
 // Short Hand If Statement
 
 // used to assign a variable based on a condition
+
+const x = 11;
+
+const color = x > 10 ? 'red' : 'blue';
+
+// console.log(color);
+/*if x is greater than ten the question mark is then do this
+colon else */
+
+// switch statement
+
+switch (color) {
+  case 'red':
+    console.log('The color is red');
+    break;
+  case 'blue':
+    console.log('The color is blue');
+    break;
+  default:
+    console.log('The color is not red or blue');
+}
