@@ -77,6 +77,6 @@ console.log(list.split(','));
 
 // Array - array are essentially varaibles that can hold multiple variables
 
+//when you see the new keyword and the array() were creating a constructing
+
 const array = new Array();
-
-
