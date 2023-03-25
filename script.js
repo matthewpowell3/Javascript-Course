@@ -236,3 +236,15 @@ while (i <= 10) {
   console.log(`This is a While Loop: ${i}`);
   i++;
 } */
+
+// Conditional
+
+const i = 5;
+
+if (i === 10) {
+  console.log('i is equal to 10');
+} else if (i === 5) {
+  console.log('i is equal to 5');
+} else {
+  console.log(`i is equal to ${i}`);
+}
