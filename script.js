@@ -53,3 +53,5 @@ console.log(sentence);
 // Properties without parentheses, With method
 
 console.log(sentence.length);
+
+console.log(sentence.toUpperCase());
