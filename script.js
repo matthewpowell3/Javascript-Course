@@ -20,6 +20,7 @@ console.log(age);
 
 // String, Number, Boolean, Null, Undefined
 
+/*
 const name = 'Matthew';
 const age = ' 14';
 const isHappy = true;
@@ -29,3 +30,4 @@ const z = undefined;
 let a;
 
 console.log(typeof name);
+*/
