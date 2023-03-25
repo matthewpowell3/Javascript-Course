@@ -174,6 +174,28 @@ const todos = [
   },
 ];
 
+// forEach, map, filter
+// todos.forEach(function (todo) {
+//   console.log(todo.text);
+// });
+
+// With map it returns the array
+
+// const todoText = todos.map(function (todo) {
+//   // to only get the text value
+//   return todo.text;
+// });
+
+// console.log(todoText);
+
+// lets only return the todo that are true
+
+const todoComplete = todos.filter(function (todo) {
+  return (todo.isComplete === true);
+});
+
+console.log(todoComplete)
+
 // Excerise console log text
 
 console.log(todos);
@@ -190,9 +212,9 @@ const todoJSON = JSON.stringify(todos);
 
 console.log(todoJSON);
 
-for (let i = 0; i < todos.length; i++) {
-  console.log(todos[i].text);
-}
+// for (let i = 0; i < todos.length; i++) {
+//   console.log(todos[i].text);
+// }
 
 /*
 // For
