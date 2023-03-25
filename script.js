@@ -136,8 +136,22 @@ console.log(person.firstName, person.lastName, person.age);
 // get movies and street
 console.log(person.hobbies[2], person.address.street);
 
-// put these out to make them variables
+// Put these out to make them variables
 
-const { firstName, lastName } = person;
+// If it is a ebbedded object like addrees
 
-console.log(firstName, lastName);
+const {
+  firstName,
+  lastName,
+  address: { street, parish },
+} = person;
+
+console.log(firstName, lastName, street, parish);
+
+// Add things
+person.emotion = 'happy';
+person.hobbies.push('games');
+person.hobbies.unshift.push('playing outside');
+person.address.email = 'nowgeforce@gmail.com';
+
+console.log(person);
