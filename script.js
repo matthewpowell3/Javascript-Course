@@ -108,4 +108,8 @@ fruits.pop();
 
 console.log(Array.isArray('hat'));
 
+// postion in the array
+
+console.log(fruits.indexOf('Grapes'));
+
 console.log(fruits[1]);
