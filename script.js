@@ -113,3 +113,18 @@ console.log(Array.isArray('hat'));
 console.log(fruits.indexOf('Grapes'));
 
 console.log(fruits[1]);
+
+// Object Literal
+
+const person = {
+  firstName: 'Matthew',
+  lastName: 'Powell',
+  age: 14,
+  hobbies: ['music', 'coding', 'gaming'],
+  address: {
+    street: 'Red Bank',
+    parish: 'Saint Elizabeth',
+  },
+};
+
+console.log(person);
