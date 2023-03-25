@@ -190,11 +190,15 @@ const todos = [
 
 // lets only return the todo that are true
 
-const todoComplete = todos.filter(function (todo) {
-  return (todo.isComplete === true);
-});
+const todoCompleted = todos
+  .filter(function (todo) {
+    return todo.isComplete === true;
+  })
+  .map(function (todo) {
+    return todo.text;
+  });
 
-console.log(todoComplete)
+console.log(todoCompleted);
 
 // Excerise console log text
 
