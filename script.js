@@ -193,7 +193,12 @@ console.log(todoJSON);
 // For
 // variable, condition to be met, increment or decrement
 
-for (let x = 0; x < 10; x++) {
+for (let x = 0; x <= 10; x++) {
   // anything in here is going to run until x is greater than or equal to ten
   console.log(`The For Loop Number Is: ${x}`);
+}
+// while
+let i = 0;
+while (i <= 10) {
+  console.log(`This is a While Loop: ${i}`);
 }
