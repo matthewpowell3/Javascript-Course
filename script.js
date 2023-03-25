@@ -77,4 +77,6 @@ console.log(list.split(','));
 
 // Array - array are essentially varaibles that can hold multiple variables
 
+const array = new Array();
+
 
