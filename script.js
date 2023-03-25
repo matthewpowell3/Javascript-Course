@@ -59,3 +59,7 @@ console.log(sentence.length);
 console.log(sentence.toUpperCase());
 
 console.log(sentence.toLowerCase());
+
+// Start and End
+
+console.log(sentence.substring(0, 8));
