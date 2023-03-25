@@ -39,3 +39,17 @@ const age = ' 14';
 
 // Old
 console.log('My name is ' + name + ' and i am age' + age);
+
+// Template String
+
+// New
+
+console.log(`My name is ${name} and am${age} years of age`);
+
+const sentence = `My name is ${name} and am${age} years of age`;
+
+console.log(sentence);
+
+// Properties without parentheses, With method
+
+console.log(sentence.length);
