@@ -71,3 +71,5 @@ console.log(sentence.split(''));
 const list = 'car, house, bar, gun, money';
 
 console.log(list.split(','));
+
+// Array
