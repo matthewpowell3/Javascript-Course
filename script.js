@@ -174,7 +174,7 @@ const todos = [
   },
 ];
 
-// Excerise console llog text
+// Excerise console log text
 
 console.log(todos);
 
@@ -191,7 +191,7 @@ const todoJSON = JSON.stringify(todos);
 console.log(todoJSON);
 
 for (let i = 0; i < todos.length; i++) {
-  console.log(`Looping: ${i}`);
+  console.log(todos[i].text);
 }
 
 /*
