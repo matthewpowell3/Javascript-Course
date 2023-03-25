@@ -281,8 +281,10 @@ switch (color) {
 // function
 
 function addNums(num1 = 8, num2 = 9) {
-  console.log(num1 + num2);
+  // return it forom the function
+  return num1 + num2;
 }
 
+console.log(addNums());
+
 // nan not a number
-addNums();
