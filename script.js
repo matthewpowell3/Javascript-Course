@@ -195,4 +195,5 @@ console.log(todoJSON);
 
 for (let x = 0; x < 10; x++) {
   // anything in here is going to run until x is greater than or equal to ten
+  console.log(x);
 }
