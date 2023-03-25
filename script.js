@@ -155,3 +155,22 @@ person.hobbies.unshift('playing outside');
 person.address.email = 'nowgeforce@gmail.com';
 
 console.log(person);
+
+
+const todos [
+  {
+    id: 1,
+    text: "Wash clothes",
+    isComplete: true
+  },
+  {
+    id: 2,
+    text: "Take out trash",
+    isComplete: true
+  },
+  {
+    id: 3,
+    text: "Cook",
+    isComplete: true
+  }
+]
