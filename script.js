@@ -79,4 +79,12 @@ console.log(list.split(','));
 
 //when you see the new keyword and the array() were creating a constructing
 
-const array = new Array();
+const array = new Array(1, 2, 3, 4, 5, 6, 7, 8);
+
+console.log(array);
+
+// usally we use brakets
+
+const fruits = ['Apple', 'Bananna', 'Coconut'];
+
+console.log(fruits);
