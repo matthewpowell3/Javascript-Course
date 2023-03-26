@@ -37,3 +37,9 @@ const btn = document.querySelector('.btn');
 
 btn.style.background = 'red';
 btn.style.fontWeight = '900';
+
+btn.addEventListener('click', (e) => {
+  // it flash so you have to get rid of the default behavear
+  e.preventDefault();
+  btn.style.background = 'black';
+});
