@@ -3,8 +3,8 @@
 /* Mostly use queryselector and queryselectorall and sometimes getelementid */
 
 // Single element
-const form = document.getElementById('my-form');
-const container = document.querySelector('.container');
+// const form = document.getElementById('my-form');
+// const container = document.querySelector('.container');
 
 // Multiple element
 
@@ -34,6 +34,7 @@ ul.lastElementChild.innerHTML = '<h3>User Three</h3>';
 //Styles
 
 const btn = document.querySelector('.btn');
+const form = document.querySelector('#my-form');
 
 btn.style.background = 'red';
 btn.style.fontWeight = '900';
@@ -42,4 +43,5 @@ btn.addEventListener('click', (e) => {
   // it flash so you have to get rid of the default behavear
   e.preventDefault();
   btn.style.background = 'black';
+  form.style.background = 'orangered';
 });
