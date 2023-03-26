@@ -6,4 +6,6 @@ const container = document.querySelector('.container');
 
 // Multiple element
 
-console.log(document.querySelectorAll('.item'));
+// console.log(document.querySelectorAll('.item'));
+// only select classes
+console.log(document.getElementsByClassName('item'));
