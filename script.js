@@ -310,3 +310,5 @@ function Person(firstName, lastName, dateOfBirth) {
   this.lastName = lastName;
   this.dateOfBirth - dateOfBirth;
 }
+
+// Instantiate object
