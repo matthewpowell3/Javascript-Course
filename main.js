@@ -14,7 +14,7 @@
 // tags
 // console.log(document.getElementsByTagName('li'));
 
-const ul = document.querySelector('.items');
+// const ul = document.querySelector('.items');
 
 // One of the method
 // ul.remove();
@@ -26,22 +26,47 @@ const ul = document.querySelector('.items');
 // ul.firstElementChild.remove();
 
 // Changes the text content of the first ul element
-ul.firstElementChild.textContent = 'User One';
+// ul.firstElementChild.textContent = 'User One';
 // Selects the second one
-ul.children[1].innerText = 'User Two';
-ul.lastElementChild.innerHTML = '<h3>User Three</h3>';
+// ul.children[1].innerText = 'User Two';
+// ul.lastElementChild.innerHTML = '<h3>User Three</h3>';
 
 //Styles
 
-const btn = document.querySelector('.btn');
+// const btn = document.querySelector('.btn');
+// const form = document.querySelector('#my-form');
+
+// btn.style.background = 'red';
+// btn.style.fontWeight = '900';
+
+// btn.addEventListener('click', (e) => {
+//   // it flash so you have to get rid of the default behavear
+//   e.preventDefault();
+//   btn.style.background = 'black';
+//   form.style.background = 'orangered';
+// });
+
+// Working Application
+
 const form = document.querySelector('#my-form');
+const nameInput = document.querySelector('#name');
+const emailInput = document.querySelector('#email');
+const message = document.querySelector('.msg');
+const userList = document.querySelector('#users');
 
-btn.style.background = 'red';
-btn.style.fontWeight = '900';
+form.addEventListener('submit', submit);
 
-btn.addEventListener('click', (e) => {
-  // it flash so you have to get rid of the default behavear
+function submit(e) {
   e.preventDefault();
-  btn.style.background = 'black';
-  form.style.background = 'orangered';
-});
+  if (nameInput.value === '' || emailInput.value === '') {
+    // adding class to varible
+    message.classList.add('error');
+    message.textContent = 'Please Fill In Form';
+    // make it dissappear after 3 seconds
+    setTimeout(function () {
+      message.remove();
+    }, 3000);
+  } else {
+    console.log('Form Sented');
+  }
+}

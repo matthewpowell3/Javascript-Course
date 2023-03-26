@@ -70,8 +70,17 @@ header {
 }
 
 .error {
-  background: orangered;
-  color: #fff;
+  color: orangered;
   padding: 5px;
   margin: 5px;
+  animation: change 3s 1;
+}
+
+@keyframes change {
+  25% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
 }
