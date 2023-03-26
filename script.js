@@ -288,3 +288,25 @@ function addNums(num1 = 8, num2 = 9) {
 console.log(addNums());
 
 // nan not a number
+
+//Arrow Function
+
+// because there is only one thing in the function we can do this
+
+const addNewNums = (num1 = 19, num2 = 9) => console.log(num1 + num2);
+
+addNewNums();
+
+// const addNewNums = (num1 = 19, num2 = 9) => {
+//   console.log(num1 + num2);
+// };
+
+// addNewNums();
+
+// object literal programming
+
+function Person(firstName, lastName, dateOfBirth) {
+  this.firstName = firstName;
+  this.lastName = lastName;
+  this.dateOfBirth - dateOfBirth;
+}
