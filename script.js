@@ -305,19 +305,37 @@ addNewNums();
 
 // object literal programming
 
-function Person(firstName, lastName, dateOfBirth) {
-  this.firstName = firstName;
-  this.lastName = lastName;
-  this.dateOfBirth = new Date(dateOfBirth);
+// function Person(firstName, lastName, dateOfBirth) {
+//   this.firstName = firstName;
+//   this.lastName = lastName;
+//   this.dateOfBirth = new Date(dateOfBirth);
+// }
+
+// Person.prototype.getFullName = function () {
+//   return `${this.firstName} ${this.lastName}`;
+// };
+
+// Person.prototype.getBirthYear = function () {
+//   return this.dateOfBirth.getFullYear();
+// };
+
+// Class
+
+class Person {
+  constructor(firstName, lastName, dateOfBirth) {
+    this.firstName = firstName;
+    this.lastName = lastName;
+    this.dateOfBirth = new Date(dateOfBirth);
+  }
+
+  getBirthYear() {
+    return this.dateOfBirth.getFullYear();
+  }
+
+  getFullName() {
+    return `${this.firstName} ${this.lastName}`;
+  }
 }
-
-Person.prototype.getFullName = function () {
-  return `${this.firstName} ${this.lastName}`;
-};
-
-Person.prototype..getBirthYear = function () {
-  return this.dateOfBirth.getFullYear();
-};
 
 // Instantiate object
 const person1 = new Person('John', 'Doe', '4-3-1990');
