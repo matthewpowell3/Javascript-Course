@@ -308,11 +308,20 @@ addNewNums();
 function Person(firstName, lastName, dateOfBirth) {
   this.firstName = firstName;
   this.lastName = lastName;
-  this.dateOfBirth - dateOfBirth;
+  this.dateOfBirth = new Date(dateOfBirth);
+  this.getBirthYear = function () {
+    return this.dateOfBirth.getFullYear();
+  };
+  this.getFullName = function () {
+    return `${this.firstName} ${this.lastName}`;
+  };
 }
 
 // Instantiate object
-const person1 = new Person('John', 'Doe', '4-6-1990');
+const person1 = new Person('John', 'Doe', '4-3-1990');
 const person2 = new Person('Matthew', 'Powell', '2-9-2000');
-const person3 = new Person('Marry', 'Smith', '5-4-1980');
-console.log(person1);
+// console.log(person1.firstName);
+// console.log(person2.dateOfBirth.getFullYear);
+
+console.log(person1.getBirthYear());
+console.log(person2.getFullName());
