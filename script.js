@@ -312,3 +312,7 @@ function Person(firstName, lastName, dateOfBirth) {
 }
 
 // Instantiate object
+const person1 = new Person('John', 'Doe', '4-6-1990');
+const person2 = new Person('Matthew', 'Powell', '2-9-2000');
+const person3 = new Person('Marry', 'Smith', '5-4-1980');
+console.log(person1);
